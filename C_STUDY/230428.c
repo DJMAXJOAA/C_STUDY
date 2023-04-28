@@ -100,7 +100,62 @@
 //	return 0;
 //}
 
+/* 145p switch ~ case문 */
+//int main()
+//{
+//	int rank = 1, m = 0;
+//
+//	switch (rank)
+//	{
+//	case 1:
+//		m = 300;
+//		break;
+//	case 2:
+//		m += 200;
+//		break;
+//	case 3:
+//		m = 100;
+//		break;
+//	case 4:
+//		m = 0;
+//		break;
+//	default:
+//		m = 10;
+//		break;
+//	}
+//	printf("m : %d\n", m);
+//
+//	return 0;
+//}
+
+/* 155p while, for 반복문 */
+//int main()
+//{
+//	int a = 1;
+//
+//	while (a < 10)
+//	{
+//		printf("%d\n", a);
+//		a *= 2;
+//	}
+//
+//	for (int a = 1; a < 10; a *= 2)
+//	{
+//		printf("%d\n", a);
+//	}
+//
+//	return 0;
+//}
+
+/* 161p do while 반복문 */
 int main()
 {
+	int a = 1;
 
+	do
+	{
+		a = a * 2;
+	} while (a < 10); printf("a : %d\n", a);
+
+	return 0;
 }
