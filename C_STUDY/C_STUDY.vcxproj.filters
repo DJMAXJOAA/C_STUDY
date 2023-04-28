@@ -26,13 +26,13 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <Text Include="..\..\4월26일 메모.txt">
+    <Text Include="..\4월26일 메모.txt">
       <Filter>리소스 파일</Filter>
     </Text>
-    <Text Include="..\..\4월27일 메모.txt">
+    <Text Include="..\4월27일 메모.txt">
       <Filter>리소스 파일</Filter>
     </Text>
-    <Text Include="..\..\4월28일 메모.txt">
+    <Text Include="..\4월28일 메모.txt">
       <Filter>리소스 파일</Filter>
     </Text>
   </ItemGroup>
