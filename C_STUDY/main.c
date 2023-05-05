@@ -3,24 +3,14 @@
 
 int main()
 {
-	int x, y;
-	scanf("%d %d", &x, &y);
+	char a[50];
+	scanf("%s", a);
 
-	if (x > 0 && y > 0)
+	if (sizeof(a) > 50)
 	{
-		printf("1");
+
 	}
-	else if (x > 0 && y < 0)
-	{
-		printf("4");
-	}
-	else if (x < 0 && y < 0)
-	{
-		printf("3");
-	}
-	else if (x < 0 && y > 0)
-	{
-		printf("2");
-	}
+
+	printf("%s??!", a);
 	return 0;
 }

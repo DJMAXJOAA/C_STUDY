@@ -183,8 +183,25 @@
 //	return 0;
 //}
 
+/* 포인터로 a,b 값 바꾸기 */
+void swap(int *pa, int *pb);
+
 int main()
 {
+	int a = 10, b = 20;
+	printf("바꾸기 전 %d %d\n", a, b);
 
+	swap(&a, &b);
+
+	printf("바꾸기 후 %d %d\n", a, b);
+	return 0;
+}
+
+void swap(int *pa, int *pb)
+{
+	int temp = *pa;
+	*pa = *pb;
+	*pb = temp;
+	
 	return 0;
 }
