@@ -3,14 +3,5 @@
 
 int main()
 {
-	char a[50];
-	scanf("%s", a);
-
-	if (sizeof(a) > 50)
-	{
-
-	}
-
-	printf("%s??!", a);
-	return 0;
+	
 }
