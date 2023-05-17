@@ -3,28 +3,26 @@
 #include <stdlib.h>
 #include <string.h>
 
-struct vision
-{
-	double left;
-	double right;
-};
+int input_data();
+double average();
+void print_data(double);
 
-struct vision exchange(struct vision robot);
+int count = 0;
+static int total = 0;
 
 int main()
 {
-	struct vision robot;
+	double avg;
 
-	printf("시력 : ");
-	scnaf("%lf%lf", &(robot.left), &(robot.right));
-	robot = exchange(robot);
-	printf("바뀐 시력 : %.1f , %.1f\n", robot.left, robot.right);
+	total = input_data();
+	avg = average();
+	print_data(avg);
 
 	return 0;
 }
 
-struct vision exchange(struct vision robot)
+void print_data(double avg)
 {
-
-	return robot;
+	printf("입력한 양수의 개수 : %d\n", count);
+	printf("전체 합과 평균 : %d, %.1f\n", total, avg);
 }
